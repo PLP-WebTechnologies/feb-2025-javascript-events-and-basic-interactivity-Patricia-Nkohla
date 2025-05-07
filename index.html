@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Bundle of Joy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Interactive Webpage</h1>
+    </header>
+
+    <!-- Interactive Button -->
+    <div>
+        <button id="interactive-button">Click Me!</button>
+    </div>
+
+    <!-- Image Gallery -->
+    <div id="gallery" class="gallery">
+        <img src="https://via.placeholder.com/200" alt="Image 1" class="gallery-image">
+        <img src="https://via.placeholder.com/200" alt="Image 2" class="gallery-image">
+        <img src="https://via.placeholder.com/200" alt="Image 3" class="gallery-image">
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+        <button class="tab-button" data-tab="1">Tab 1</button>
+        <button class="tab-button" data-tab="2">Tab 2</button>
+        <button class="tab-button" data-tab="3">Tab 3</button>
+    </div>
+    <div class="tab-content" id="tab1-content">
+        <p>This is the content for Tab 1.</p>
+    </div>
+    <div class="tab-content" id="tab2-content">
+        <p>This is the content for Tab 2.</p>
+    </div>
+    <div class="tab-content" id="tab3-content">
+        <p>This is the content for Tab 3.</p>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion">
+        <button class="accordion-button">Section 1</button>
+        <div class="accordion-content">
+            <p>Content for Section 1.</p>
+        </div>
+
+        <button class="accordion-button">Section 2</button>
+        <div class="accordion-content">
+            <p>Content for Section 2.</p>
+        </div>
+
+        <button class="accordion-button">Section 3</button>
+        <div class="accordion-content">
+            <p>Content for Section 3.</p>
+        </div>
+    </div>
+
+    <!-- Form with Validation -->
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Success Message -->
+    <div id="success-message" style="display:none;">
+        <p>Thank you for your submission!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

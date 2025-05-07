@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.gallery-image {
+    margin: 0 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-image:hover {
+    transform: scale(1.1);
+}
+
+.tabs {
+    margin: 20px 0;
+}
+
+.tab-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    background-color: #0056b3;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+    background-color: #f1f1f1;
+    margin-top: 10px;
+}
+
+.accordion-button {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.accordion-button:hover {
+    background-color: #138496;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #e9ecef;
+    margin-top: 5px;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 300px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#success-message {
+    margin-top: 20px;
+    font-size: 18px;
+    color: green;
+}
